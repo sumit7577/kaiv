@@ -24,31 +24,31 @@ const meta = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
-    callToAction2={{ text: 'Learn more', href: '#features' }}
+    callToAction={{ text: 'Book A Free Strategy Call', href: 'tel:+919117517898', icon: 'tabler:phone-call' }}
     image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden lg:inline">create your website <br class="2xl:hidden"/> with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 2.0</span> + Tailwind CSS
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 2.0 +
-        Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span> Suitable for Startups,
-      Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.
+      We bring customers to our clients <br />
+      <span>through social media marketing <br /> ...with a Breathtaking ROI</span>
     </Fragment>
   </Hero>
 
-  <!-- Note Widget ******************* -->
+  <!-- Stats Widget ****************** -->
 
-  <Note />
+  <Stats
+    items={[
+      { name: 'Active Clients', value: '12' },
+      { name: 'Monthly Adspend', value: '$24k' },
+      { name: 'Average ROI', value: '7.6' },
+      { name: 'Average ROI', value: '7.6' },
+    ]}
+  />
+
+  <!-- Note Widget ******************* -->
+  {/*<Note /> */}
 
   <!-- Features Widget *************** -->
-
+  {/* 
   <Features
     highlight="Features"
     title="What you get with AstroWind"
@@ -320,17 +320,6 @@ const meta = {
     ]}
   />
 
-  <!-- Stats Widget ****************** -->
-
-  <Stats
-    items={[
-      { name: 'Downloads', value: '132K' },
-      { name: 'Stars', value: '24.8K' },
-      { name: 'Forks', value: '10.3K' },
-      { name: 'Users', value: '48.4K' },
-    ]}
-  />
-
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
@@ -349,4 +338,5 @@ const meta = {
       waste more time! :P
     </Fragment>
   </CallToAction>
+*/}
 </Layout>
